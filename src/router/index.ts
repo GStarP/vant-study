@@ -18,6 +18,10 @@ const routes = [
         component: () => import("../components/SwipeCell.vue")
       },
       {
+        path: 'calendar',
+        component: () => import("../components/Calendar.vue")
+      },
+      {
         path: "*",
         redirect: "/show/swipe-cell"
       }
