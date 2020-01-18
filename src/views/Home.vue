@@ -2,7 +2,7 @@
   <div id="mainContainer">
     <div class="header">模拟手机</div>
     <div class="caption">选择组件</div>
-    <van-grid id="naviContainer" :column-num="3 ">
+    <van-grid id="naviContainer" :column-num="3">
       <van-grid-item
         class="navi-item"
         v-for="(item, i) of naviList"

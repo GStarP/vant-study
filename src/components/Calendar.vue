@@ -2,7 +2,7 @@
   <div class="cal-container">
     <div class="header">
       <div id="dateSelect" @click="calShow = true">{{ date }}</div>
-      <div class="caption">点击选择日期</div>
+      <div class="caption">点击上方选择日期</div>
     </div>
     <van-calendar v-model="calShow" @confirm="selectDate"/>
   </div>
